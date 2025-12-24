@@ -1,6 +1,6 @@
 from openai.types.responses.response_reasoning_item import Summary
 from openai import OpenAI
-from agents import Agent
+from agents import Agent, function_tool
 from agents import Runner, trace, gen_trace_id
 from dotenv import load_dotenv
 
